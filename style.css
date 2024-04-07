@@ -1,7 +1,6 @@
 /*geral*/
 body, p, h1, h2, input, textarea {
     margin: 0;
-    font-family: Dancing Script;
 }
 
 h2{
@@ -11,12 +10,12 @@ h2{
 /*navbar*/
 #navbar{
     background-color: black;
-    color: #fff;
+    color: white;
     padding: 0 15px;
     height:60px
 }
 
-#navbar h2, #navbar ul, #navbar-list li, #navbar-list nav {
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
     display: inline-block
 }
 
@@ -28,7 +27,7 @@ h2{
 
 #navbar img {
     height: 40px;
-    transform: rotate(10deg);
+    transform: rotate(45deg);
     position: absolute;
     top: 10px;
 }
@@ -47,11 +46,11 @@ h2{
 
 #navbar-list li a{
     text-decoration: none;
-    color: #fff;
+    color: white;
 }
 
 #navbar-list li a:holver {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid black;
 }
 
 /*banner*/
@@ -67,20 +66,20 @@ h2{
     margin-right: auto ;
     margin-left: auto ;
     text-align: center;
-    color: #FFF;
+    color: white;
     padding: 50px;
 }
 
 #banner-info img{
     height: 120px;
     border-radius: 50%;
-    background-color: rgb(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    background-color: black;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 #banner-info p{
-    background-color: #FFF;
+    background-color: black;
     font-weight: bold ;
     width: 200px;
     margin-right: auto;
@@ -133,8 +132,8 @@ h2{
 }
 
 .central {
-    border-left: 1px solid #fff ;
-    border-right: 1px solid #fff;
+    border-left: 1px solid black ;
+    border-right: 1px solid black;
 
 }
 
@@ -149,15 +148,15 @@ h2{
     margin-bottom: 25px;
     border-top: 1px solid black;
     border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
 }
 
 .skills-container .subtitle{
     font-weight: bold;
     color:black;
-    margin: top 50px;
-    margin-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 15px;;
 }
 
 .skills-container p{
@@ -176,7 +175,7 @@ h2{
     margin-bottom: 30px;
 }
 
-#job-section p{
+#jobs-section p{
     margin-bottom: 50px;
 }
 
@@ -206,7 +205,7 @@ h2{
 }
 
 .proj1{
-    background-image:url(../Sla/img/Starwars.jpg) ;
+    background-image:url(../Sla/img/Koeninseg.jpeg) ;
 }
 
 .proj2{
